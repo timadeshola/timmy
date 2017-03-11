@@ -1,0 +1,30 @@
+(1) What is Dependency Injection?
+Answer: Dependency Injection (DI) is a design pattern that removes the dependency from the programming code so that 
+it can be easy to manage and test the application.
+
+(2)What is the difference between AOP and cross cutting concerns.
+
+Aspect-oriented programming, or AOP, complements object-oriented programming by allowing the developer 
+to dynamically modify the static object-oriented model to create a system that can grow to meet new 
+requirements, allowing an application to adopt new characteristics as it develops.
+
+The crosscutting concern is a concern which is applicable throughout the application and it affects the 
+entire application. For example: logging, security and data transfer are the concerns which are needed 
+in almost every module of an application
+
+(3)Thread can be created by extending Thread class or by implementing Runnable interface.
+
+
+(5) Solution in package Question5
+
+
+(6) How can hibernate be configured in Java EE?
+Please note that these steps below is for Netbeans IDE
+Answer: Step 1:Create a web project
+        Step 2: Select Hibernate on the frameworks
+        Step 3: Select database connection and the corresponding database dialect
+        Step 4: Open hibernate.cfg.xml and modify accordingly.
+
+(7) What is the work of activeMQ in a Java application?
+Answer: ActiveMQ is designed for the purpose of sending messages between two applications, 
+or two components inside one application. It's used to reliably communicate between two distributed processes.
